@@ -21,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## if the inverse of the matrix x has not already been cached then cacheinverse will calculate and print it out
-##x is the output of makeCacheMatrix
+## x is the output of makeCacheMatrix
 
 cacheinverse <- function(x, ...) {
   m <- x$getinverse()
